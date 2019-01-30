@@ -17,7 +17,7 @@ namespace Q4_MessageLength
         static void Main(string[] args)
         {
             Console.Write("Enter your message: ");
-            string message = Convert.ToString(Console.ReadLine());
+            string message = Console.ReadLine();
             if (message.Length > 140)
             {
                 Console.WriteLine($"Your message must have less than 140 characters");

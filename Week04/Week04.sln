@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q9_IQScore_Nested", "Q9_IQS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10_HourlyRate_Nested", "Q10_HourlyRate_Nested\Q10_HourlyRate_Nested.csproj", "{D1BD197D-E9A7-456A-A680-E33046D56CDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_switch", "Student_switch\Student_switch.csproj", "{45C32547-DED5-4C58-8E0A-E4AFD650EA62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{D1BD197D-E9A7-456A-A680-E33046D56CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1BD197D-E9A7-456A-A680-E33046D56CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1BD197D-E9A7-456A-A680-E33046D56CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C32547-DED5-4C58-8E0A-E4AFD650EA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C32547-DED5-4C58-8E0A-E4AFD650EA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C32547-DED5-4C58-8E0A-E4AFD650EA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C32547-DED5-4C58-8E0A-E4AFD650EA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
