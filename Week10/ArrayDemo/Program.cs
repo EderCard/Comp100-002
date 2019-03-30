@@ -17,7 +17,7 @@ namespace ArrayDemo
         static void Main(string[] args)
         {
             //PrintStringArray();
-            //PrintPoem();
+            PrintPoem();
             //Sum();
             //Double();
             //Sum();
@@ -26,7 +26,7 @@ namespace ArrayDemo
             //PrintVowels();
             //Console.Write(SumModified());
             //DisplayGreaterThan10();
-            CountEvenOven();
+            //CountEvenOven();
         }
         #region Question 1
         /*
@@ -62,7 +62,7 @@ namespace ArrayDemo
             while (position > 0)
             {
                 position--;
-                Console.Write(poem[position]);
+                Console.Write($"{poem[position]} ");
             }
         }
         #endregion
