@@ -247,8 +247,8 @@ namespace Part_I
                         DisplaySineTable();
                         break;
                 }
-                #endregion
             }
         }
+        #endregion
     }
 }
