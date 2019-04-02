@@ -14,6 +14,7 @@ namespace Part_II
             //DisplayHorizontalStars(0);
             //DisplayHorizontalStars(5);
             //DisplayHorizontalStars(10);
+            //Console.WriteLine();
             #endregion
 
             #region Call Question 2
@@ -52,10 +53,10 @@ namespace Part_II
             //DisplaySineTable(30, .2, 15);
             #endregion
 
-            #region Call Question 7
-            ConvertHeight(90);
-            ConvertHeight(120);
-            ConvertHeight(275);
+            #region Call Question 8
+            //ConvertHeight(90);
+            //ConvertHeight(120);
+            //ConvertHeight(275);
             #endregion
 
         }
@@ -73,7 +74,6 @@ namespace Part_II
             {
                 Console.Write($"*");
             }
-            Console.WriteLine();
         }
         #endregion
 
