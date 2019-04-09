@@ -47,7 +47,7 @@ namespace ArrayAssignment
             //Console.WriteLine("\n\nOriginal");
             //PrintIntArray(numbers);
             //Console.WriteLine($"\n\nSearching for 3");
-            //int position = Array.BinarySearch(numbers, 3);
+            //int position = Array.BinarySearch(numbers, 1);
             //Console.WriteLine($"Number 3 was located at position {position}");
 
             //Array.Sort(numbers);
