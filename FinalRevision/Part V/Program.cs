@@ -62,14 +62,14 @@ namespace Part_V
             #endregion
 
             #region Call Question 6
-            //int numberOfValues = 15;
-            //int[] arrayIntergers = GenerateRandomIntArray(numberOfValues, 99);
-            //DisplayIntArray(arrayIntergers);
-            //Console.WriteLine();
+            int numberOfValues = 15;
+            int[] arrayIntergers = GenerateRandomIntArray(numberOfValues, 99);
+            DisplayIntArray(arrayIntergers);
+            Console.WriteLine();
 
-            //int[] result = CalculateNumberFrequencies(arrayIntergers);
-            //DisplayIntArray(result);
-            //Console.WriteLine();
+            int[] result = CalculateNumberFrequencies(arrayIntergers);
+            DisplayIntArray(result);
+            Console.WriteLine();
             #endregion
         }
         #region Question 1
@@ -187,18 +187,24 @@ namespace Part_V
         static int[] CalculateDigitFrequencies(int[] array)
         {
             int[] result = new int[10];
-            
-            for (int i = 0; i < array.Length; i++)
+
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    for (int j = 0; j < 10; j++)
+            //    {
+            //        if (array[i] == j)
+            //        {
+            //            result[j]++;
+            //        }
+            //    }
+            //}
+
+            foreach (int item in array)
             {
-                for (int j = 0; j < 10; j++)
-                {
-                    if (array[i] == j)
-                    {
-                        result[j]++;
-                    }
-                }
+                result[item]++;
             }
-           return result;
+
+            return result;
         }
         #endregion
 
@@ -224,16 +230,22 @@ namespace Part_V
         {
             int[] result = new int[10];
 
-            for (int i = 0; i < array.Length; i++)
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    for (int j = 0; j < 10; j++)
+            //    {
+            //        if ((array[i] % 10) == j)
+            //        {
+            //            result[j]++;
+            //        }
+            //    }
+            //}
+
+            foreach (int item in array)
             {
-                for (int j = 0; j < 10; j++)
-                {
-                    if ((array[i] % 10) == j)
-                    {
-                        result[j]++;
-                    }
-                }
+                result[item % 10]++;
             }
+
             return result;
         }
         #endregion
@@ -262,19 +274,24 @@ namespace Part_V
                     //DisplayIntArray(array);
                     //Console.WriteLine();
 
-            for (int i = 0; i < 10; i++)
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    for (int j = 0; j < array.Length; j++)
+            //    {
+            //        if ((array[j] >= (i * 10)) && (array[j] <= (i * 10 + 9)))
+            //        {
+            //            result[i]++;
+            //        }
+            //    }
+            //}
+
+            foreach (int item in array)
             {
-                for (int j = 0; j < array.Length; j++)
-                {
-                    if ((array[j] >= (i * 10)) && (array[j] <= (i * 10 + 9)))
-                    {
-                        result[i]++;
-                    }
-                }
+                result[item / 10]++;
             }
+
             return result;
         }
         #endregion
-
     }
 }
